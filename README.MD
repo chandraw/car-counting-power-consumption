@@ -1,6 +1,10 @@
 Tested on Jetson Orin Nano 8GB  
 Jetpack 6.2.1 MAXN Super Power Mode  
 
+![Screenshot](experiment.jpg)
+
+![Screenshot2](jetson_console.jpg)
+
 # Install and enable jetson-stats 
 sudo pip3 install -U jetson-stats  
 sudo systemctl restart jetson-stats  
@@ -12,18 +16,18 @@ chandra@jetson-chandra:~$ yolo checks
 Ultralytics 8.4.24 🚀 Python-3.10.12 torch-2.5.0a0+872d972e41.nv24.08 CUDA:0 (Orin, 7620MiB)  
 Setup complete ✅ (6 CPUs, 7.4 GB RAM, 111.0/914.4 GB disk)  
 
-OS                     Linux-5.15.148-tegra-aarch64-with-glibc2.35  
-Environment            Linux  
-Python                 3.10.12  
-Install                pip  
-Path                   /home/chandra/.local/lib/python3.10/site-packages/ultralytics  
-RAM                    7.44 GB  
-Disk                   111.0/914.4 GB  
-CPU                    ARMv8 Processor rev 1 (v8l)  
-CPU count              6  
-GPU                    Orin, 7620MiB  
-GPU count              1  
-CUDA                   12.6  
+OS                     : Linux-5.15.148-tegra-aarch64-with-glibc2.35  
+Environment            : Linux  
+Python                 : 3.10.12  
+Install                : pip  
+Path                   : /home/chandra/.local/lib/python3.10/site-packages/ultralytics  
+RAM                    : 7.44 GB  
+Disk                   : 111.0/914.4 GB  
+CPU                    : ARMv8 Processor rev 1 (v8l)  
+CPU count              : 6  
+GPU                    : Orin, 7620MiB  
+GPU count              : 1  
+CUDA                   : 12.6  
   
 numpy                  ✅ 1.26.4>=1.23.0  
 matplotlib             ✅ 3.5.1>=3.3.0  
